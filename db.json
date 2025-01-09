@@ -1,0 +1,204 @@
+{
+  "products": [
+    {
+      "sku": "prod001",
+      "name": "Blue Label",
+      "description": "Description of Product 1 with some detailed information to show how it displays in the UI.",
+      "image": "https://via.placeholder.com/150",
+      "category": { "id": "cat001", "name": "Whiskey" },
+      "brand": "Johnny Walker",
+      "price": 1000000.0,
+      "stock": 20
+    },
+    {
+      "sku": "prod002",
+      "name": "Super Long Product Name Just To Test UI Overflow Handling In A UI With Longer Text Fields",
+      "description": "This is a really long description to test how the UI handles wrapping and overflow. It contains a lot of information, details, and specifics about the product which will help determine how the layout behaves when this content is rendered in the user interface.",
+      "image": "https://via.placeholder.com/150",
+      "category": { "id": "cat002", "name": "Electronics" },
+      "brand": "Tech Innovators",
+      "price": 499.99,
+      "stock": 50
+    },
+    {
+      "sku": "prod003",
+      "name": "Compact Speaker",
+      "description": "A compact and portable Bluetooth speaker with excellent sound quality and a sleek design.",
+      "image": "https://via.placeholder.com/150",
+      "category": { "id": "cat001", "name": "Audio" },
+      "brand": "SoundMaster",
+      "price": 75.0,
+      "stock": 15
+    },
+    {
+      "sku": "prod004",
+      "name": "Wireless Mouse",
+      "description": "A wireless mouse designed for comfort and ease of use, perfect for working professionals and students alike.",
+      "image": "https://via.placeholder.com/150",
+      "category": { "id": "cat003", "name": "Accessories" },
+      "brand": "MouseTech",
+      "price": 29.99,
+      "stock": 100
+    },
+    {
+      "sku": "prod005",
+      "name": "Gourmet Coffee Beans",
+      "description": "A premium blend of gourmet coffee beans sourced from the finest farms around the world, offering a rich and smooth taste.",
+      "image": "https://via.placeholder.com/150",
+      "category": { "id": "cat004", "name": "Food & Beverages" },
+      "brand": "BrewMasters",
+      "price": 19.99,
+      "stock": 35
+    },
+    {
+      "sku": "prod006",
+      "name": "Smartphone",
+      "description": "The latest high-tech smartphone with cutting-edge features, amazing camera quality, and a long-lasting battery.",
+      "image": "https://via.placeholder.com/150",
+      "category": { "id": "cat002", "name": "Smartphones" },
+      "brand": "FuturePhone",
+      "price": 999.99,
+      "stock": 10
+    },
+    {
+      "sku": "prod007",
+      "name": "Leather Wallet",
+      "description": "A handcrafted leather wallet, made with premium materials and designed for durability and style.",
+      "image": "https://via.placeholder.com/150",
+      "category": { "id": "cat005", "name": "Fashion" },
+      "brand": "StyleCraft",
+      "price": 45.0,
+      "stock": 25
+    },
+    {
+      "sku": "prod008",
+      "name": "Eco-Friendly Water Bottle",
+      "description": "An environmentally friendly water bottle made from recycled materials, designed to keep your drinks cool or hot for hours.",
+      "image": "https://via.placeholder.com/150",
+      "category": { "id": "cat006", "name": "Home & Living" },
+      "brand": "EcoFlow",
+      "price": 15.99,
+      "stock": 30
+    },
+    {
+      "sku": "prod009",
+      "name": "Gaming Headset",
+      "description": "A high-quality gaming headset with surround sound and a noise-canceling microphone for the ultimate gaming experience.",
+      "image": "https://via.placeholder.com/150",
+      "category": { "id": "cat007", "name": "Gaming" },
+      "brand": "GamerX",
+      "price": 120.0,
+      "stock": 12
+    },
+    {
+      "sku": "prod010",
+      "name": "Mountain Bike",
+      "description": "A durable mountain bike built for adventure, with strong wheels and a lightweight frame designed for rugged terrain.",
+      "image": "https://via.placeholder.com/150",
+      "category": { "id": "cat008", "name": "Sports & Outdoors" },
+      "brand": "TrailBlazers",
+      "price": 450.0,
+      "stock": 8
+    },
+    {
+      "sku": "prod011",
+      "name": "Luxury Watch",
+      "description": "A sophisticated luxury watch with a timeless design, perfect for those who appreciate fine craftsmanship and style.",
+      "image": "https://via.placeholder.com/150",
+      "category": { "id": "cat009", "name": "Luxury Goods" },
+      "brand": "TimeKeepers",
+      "price": 2500.0,
+      "stock": 5
+    },
+    {
+      "sku": "prod012",
+      "name": "Portable Power Bank",
+      "description": "A portable power bank to keep your devices charged while on the go. Compact and reliable for everyday use.",
+      "image": "https://via.placeholder.com/150",
+      "category": { "id": "cat010", "name": "Tech Gadgets" },
+      "brand": "PowerHub",
+      "price": 35.99,
+      "stock": 40
+    },
+    {
+      "sku": "prod013",
+      "name": "Noise Cancelling Headphones",
+      "description": "Noise-cancelling headphones that deliver premium sound quality and a comfortable fit for long listening sessions.",
+      "image": "https://via.placeholder.com/150",
+      "category": { "id": "cat007", "name": "Audio" },
+      "brand": "SoundWave",
+      "price": 180.0,
+      "stock": 18
+    },
+    {
+      "sku": "prod014",
+      "name": "Electric Kettle",
+      "description": "A fast-boiling electric kettle with an automatic shut-off feature for safety and convenience.",
+      "image": "https://via.placeholder.com/150",
+      "category": { "id": "cat011", "name": "Home Appliances" },
+      "brand": "HeatWave",
+      "price": 50.0,
+      "stock": 25
+    },
+    {
+      "sku": "prod015",
+      "name": "Smart Thermostat",
+      "description": "A smart thermostat that adjusts the temperature based on your preferences, saving energy and money.",
+      "image": "https://via.placeholder.com/150",
+      "category": { "id": "cat012", "name": "Smart Home" },
+      "brand": "HomeTech",
+      "price": 99.99,
+      "stock": 50
+    },
+    {
+      "sku": "prod016",
+      "name": "Yoga Mat",
+      "description": "A high-quality yoga mat made from eco-friendly materials, providing a non-slip surface for your yoga sessions.",
+      "image": "https://via.placeholder.com/150",
+      "category": { "id": "cat013", "name": "Fitness" },
+      "brand": "FlexFit",
+      "price": 25.0,
+      "stock": 75
+    },
+    {
+      "sku": "prod017",
+      "name": "Electric Guitar",
+      "description": "An electric guitar with smooth sound, designed for both beginners and experienced musicians.",
+      "image": "https://via.placeholder.com/150",
+      "category": { "id": "cat014", "name": "Musical Instruments" },
+      "brand": "RockStar",
+      "price": 150.0,
+      "stock": 10
+    },
+    {
+      "sku": "prod018",
+      "name": "Leather Jacket",
+      "description": "A premium leather jacket, stylish and durable for any occasion. Made from high-quality materials for a perfect fit.",
+      "image": "https://via.placeholder.com/150",
+      "category": { "id": "cat015", "name": "Fashion" },
+      "brand": "UrbanStyles",
+      "price": 199.99,
+      "stock": 30
+    },
+    {
+      "sku": "prod019",
+      "name": "Gaming Chair",
+      "description": "An ergonomic gaming chair designed for maximum comfort during long gaming sessions. Adjustable, durable, and stylish.",
+      "image": "https://via.placeholder.com/150",
+      "category": { "id": "cat016", "name": "Furniture" },
+      "brand": "GameComfort",
+      "price": 220.0,
+      "stock": 10
+    },
+    {
+      "sku": "prod020",
+      "name": "Smartwatch",
+      "description": "A smartwatch with advanced fitness tracking, heart rate monitoring, and customizable watch faces for your lifestyle.",
+      "image": "https://via.placeholder.com/150",
+      "category": { "id": "cat017", "name": "Wearables" },
+      "brand": "TechWear",
+      "price": 199.99,
+      "stock": 25
+    }
+  ]
+}
