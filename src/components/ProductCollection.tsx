@@ -1,103 +1,124 @@
 "use client";
 import { useSearch } from "@/context/SearchContext";
 import React, { useEffect, useState } from "react";
-import ProductCard from "./ProductCard";
-import { Product } from "@/interfaces/Product";
+import ProductCollectionCard from "./ProductCollectionCard";
+import { ProductListItem } from "@/interfaces/Product";
 
-// import { GetServerSideProps } from "next";
 import { fetchProducts } from "@/api/productService";
 import { Card } from "antd";
+import { Category } from "@/utils/getUniqueCategories";
+import Chip from "./Chip";
+import ErrorView from "./ErrorView";
 
-const ProductCollection: React.FC = () => {
+interface ProductCollectionProps {
+  products: ProductListItem[];
+  filterCategories: Category[];
+}
+
+const ProductCollection: React.FC<ProductCollectionProps> = ({
+  products,
+  filterCategories,
+}) => {
   const { searchInputText, setLoading, loading } = useSearch();
-  const [items, setItems] = useState<Product[]>([]);
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const [selectedCategories, setSelectedCategories] = useState<Category[]>([]);
+  const [items, setItems] = useState<ProductListItem[]>(products);
   const [error, setError] = useState<string | null>(null);
+
+  const toggleCategory = (category: Category) => {
+    setSelectedCategories((prevSelected) =>
+      prevSelected.includes(category)
+        ? prevSelected.filter((cat) => cat.id !== category.id)
+        : [...prevSelected, category]
+    );
+  };
+
+  useEffect(() => {
+    if (selectedCategories.length === 0) {
+      setItems(products);
+      return;
+    }
+    setItems(
+      products.filter((product) =>
+        selectedCategories.some((cat) => cat.id === product.category.id)
+      )
+    );
+  }, [selectedCategories, products]);
 
   useEffect(() => {
     const executeSearch = async (text: string) => {
       setLoading(true);
-      setError(null); // Reset error before starting a new search
+      setError(null);
 
       try {
-        const results = await fetchProducts(text);
-        setItems(results);
+        if (text) {
+          const results = await fetchProducts({ query: text });
+          setItems(results);
+        } else {
+          setItems(products);
+        }
       } catch (error) {
         if (error instanceof Error) {
-          throw new Error("Error fetching products: " + error.message);
-        } else {
-          throw new Error("Error fetching products");
+          setError(error.message);
         }
       } finally {
         setLoading(false);
       }
     };
 
-    if (searchInputText) {
-      executeSearch(searchInputText);
-    } else {
-      setItems([]);
-    }
-  }, [searchInputText, setLoading]);
+    executeSearch(searchInputText);
+  }, [searchInputText, setLoading, products]);
 
   return (
     <>
-      <h1 className="text-black font-extrabold text-2xl md:text-5xl lg:text-5xl mb-8 max-w-[300px] w-full">
-        Products
-      </h1>
-      <div className="w-full grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8 h-full justify-items-center">
-        {!loading &&
-          items.map((product: Product) => (
-            <div
-              className="w-full max-w-[300px] justify-center"
-              key={product.sku}
-            >
-              <ProductCard product={product} />
-            </div>
+      <div className="flex-col md:flex-row flex justify-between items-center w-full gap-4 mb-8">
+        <h1 className="flex-1 text-black font-extrabold text-2xl md:text-5xl lg:text-5xl max-w-[300px] w-full">
+          Products
+        </h1>
+        <div className="flex flex-[0_0_55%] gap-2 flex-wrap h-full md:justify-end items-center text-center">
+          {filterCategories?.map((category) => (
+            <Chip
+              text={category.name}
+              key={category.id}
+              size="text-[16px] py-2 px-4"
+              onClick={() => toggleCategory(category)}
+              customStyle={
+                selectedCategories.includes(category)
+                  ? "bg-blue-500 text-white border-blue-500 hover:bg-blue-600 hover:border-blue-600"
+                  : "hover:border-blue-600 hover:text-blue-600 border-blue-500 text-blue-500"
+              }
+            />
           ))}
+        </div>
       </div>
-      {loading && <div className="h-full flex w-full gap-8">
-        <Card
-          className="w-full max-w-[300px] justify-center h full"
-          loading={loading}
-        />
-        <Card
-          className="w-full max-w-[300px] justify-center h full"
-          loading={loading}
-        />
-        <Card
-          className="w-full max-w-[300px] justify-center h full"
-          loading={loading}
-        />
-        <Card
-          className="w-full max-w-[300px] justify-center h full"
-          loading={loading}
-        />
-      </div>}
+
+      {error ? (
+        <ErrorView errorMessage={error} />
+      ) : (
+        <div className="w-full grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8 h-full justify-items-center">
+          {!loading ? (
+            items?.map((product: ProductListItem) => (
+              <div
+                className="w-full max-w-[300px] justify-center"
+                key={product.sku}
+              >
+                <ProductCollectionCard product={product} />
+              </div>
+            ))
+          ) : (
+            <div className="h-full flex w-full gap-8">
+              {[1, 2, 3, 4].map((_, index) => (
+                <Card
+                  key={index}
+                  className="w-full max-w-[300px] justify-center h-full p-4"
+                  loading={loading}
+                />
+              ))}
+            </div>
+          )}
+        </div>
+      )}
     </>
   );
 };
-
-// export const getServerSideProps: GetServerSideProps = async ({ query }) => {
-//   const searchQuery = query.search || ""; // If no search query, fetch all products
-
-//   try {
-//     // Fetch products based on the search query or fetch all if no query
-//     const products = await fetchProducts(searchQuery as string);
-
-//     return {
-//       props: {
-//         products, // Pass the fetched products as props
-//       },
-//     };
-//   } catch (error) {
-//     console.error("Error fetching products on SSR:", error);
-//     return {
-//       props: {
-//         products: [], // Return empty array if there's an error
-//       },
-//     };
-//   }
-// };
 
 export default ProductCollection;

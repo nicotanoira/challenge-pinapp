@@ -1,17 +1,34 @@
-import Navbar from "@/components/NavBar";
+import { fetchProducts } from "@/api/productService";
+import ErrorView from "@/components/ErrorView";
+import PageContentContainer from "@/components/PageContentContainer";
 import ProductCollection from "@/components/ProductCollection";
+import { ProductListItem } from "@/interfaces/Product";
+import getUniqueCategories, { Category } from "@/utils/getUniqueCategories";
 
-export default function Home() {
+const Home = async () => {
+  let initialProducts: ProductListItem[] = [];
+  let allCategories: Category[] = []
+
+  try {
+    initialProducts = (await fetchProducts({ pageParam: 0, query: "" })) ?? [];
+    allCategories = getUniqueCategories(initialProducts);
+  } catch (error) {
+    return (
+      <ErrorView
+        errorMessage={error instanceof Error ? error.message : "An unknown error occurred"}
+      />
+    );
+  }
   
   return (
-    <div className="w-full h-full flex flex-col items-center gap-8 mb-8">
-      <Navbar />
-      <section className="flex w-[70%] h-full lg:w-[70%] flex-col items-center md:items-start">
-        <ProductCollection />
-      </section>
-      <footer>
-        PinApp C - 2025 Challenge
-      </footer>
-    </div>
+    <PageContentContainer>
+
+        <section className="flex-1 flex w-[70%] h-full lg:w-[70%] flex-col items-center md:items-start">
+          <ProductCollection products={initialProducts} filterCategories={allCategories} />
+        </section> 
+
+    </PageContentContainer>
   );
 }
+
+export default Home;
