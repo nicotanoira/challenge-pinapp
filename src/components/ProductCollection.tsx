@@ -111,7 +111,6 @@ const ProductCollection: React.FC<ProductCollectionProps> = ({
               </div>
             ))
           ) : 
-            // <div className="flex-col md:flex-row h-full flex w-full gap-8">
             [1, 2, 3, 4].map((_, index) => (
               <Card
                 key={index}
@@ -119,7 +118,6 @@ const ProductCollection: React.FC<ProductCollectionProps> = ({
                 loading={true}
               />
             )
-          //  </div>
           )}
         </div>
       )}
