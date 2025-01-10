@@ -5,32 +5,26 @@ import PageContentContainer from "@/components/PageContentContainer";
 import ProductDetailView from "@/components/ProductDetailView";
 import { ProductDetail } from "@/interfaces/Product";
 
-interface ProductDetailPageProps {
-  params: { sku: string };
-}
-
-// Generación de metadatos dinámicos (opcional)
-// export async function generateMetadata({
-//   params,
-// }: ProductDetailPageProps): Promise<Metadata> {
-//   const product = await fetchProductDetails(params.sku);
-//   return { title: product.name };
+// interface ProductDetailPageProps {
+//   params: { sku: string };
 // }
 
-const ProductDetailPage = async ({ params }: ProductDetailPageProps) => {
+const ProductDetailPage = async ({
+  params,
+}: {
+  params: Promise<{ sku: string }>;
+}) => {
   const { sku } = await params;
 
   let product: ProductDetail | null = null;
 
   try {
+    // This is actually equal to id
+    // sku === id
     product = await fetchProductDetails(sku);
   } catch (error) {
     if (error instanceof Error) {
-      return (
-        <ErrorView
-          errorMessage={error.message}
-        />
-      );
+      return <ErrorView errorMessage={error.message} />;
     }
   }
 
