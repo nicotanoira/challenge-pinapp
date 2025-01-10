@@ -9,7 +9,9 @@ export const fetchProducts = async ({
   query?: string;
 }): Promise<ProductListItem[]> => {
   try {
-    const response = await axios.get("http://localhost:3001/products", {
+    // Completely aware of passing API Endpoints (+keys) via .env variables,  
+    // but for this case I didn't think was necessary.
+    const response = await axios.get("https://json-server-challenge-pinapp.vercel.app/products", {
       params: { page: pageParam, size: 10 },
     });
     const products: ProductListItem[] = response.data;
@@ -46,7 +48,9 @@ export const fetchProducts = async ({
 
 export const fetchProductDetails = async (id: string) => {
   try {
-    const response = await axios.get(`http://localhost:3001/products/${id}`);
+    // Completely aware of passing API Endpoints (+keys) via .env variables,  
+    // but for this case I didn't think was necessary.
+    const response = await axios.get(`https://json-server-challenge-pinapp.vercel.app/products/${id}`);
     return response.data;
   } catch (error) {
     if (axios.isAxiosError(error)) {

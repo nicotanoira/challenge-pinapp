@@ -70,7 +70,8 @@ const ProductCollection: React.FC<ProductCollectionProps> = ({
 
   return (
     <>
-      <div className="flex-col md:flex-row flex justify-between items-center w-full gap-4 mb-8">
+    <>
+      <div className="flex-col md:flex-row flex justify-between items-center w-full gap-4 md:mb-6">
         <h1 className="flex-1 text-black font-extrabold text-2xl md:text-5xl lg:text-5xl max-w-[300px] w-full">
           Products
         </h1>
@@ -79,7 +80,7 @@ const ProductCollection: React.FC<ProductCollectionProps> = ({
             <Chip
               text={category.name}
               key={category.id}
-              size="text-[16px] py-2 px-4"
+              size="text-[12px] md:text-[16px] py-1 px-2 md:py-2 md:px-4"
               onClick={() => toggleCategory(category)}
               customStyle={
                 selectedCategories.includes(category)
@@ -90,6 +91,10 @@ const ProductCollection: React.FC<ProductCollectionProps> = ({
           ))}
         </div>
       </div>
+      <span className="text-sm md:text-base text-gray-500 flex w-full justify-end items-center text-center mb-2 pr-2">
+        Showing: {items.length} results
+      </span>
+    </>
 
       {error ? (
         <ErrorView errorMessage={error} />
@@ -105,7 +110,7 @@ const ProductCollection: React.FC<ProductCollectionProps> = ({
               </div>
             ))
           ) : (
-            <div className="h-full flex w-full gap-8">
+            <div className="flex-col md:flex-row h-full flex w-full gap-8">
               {[1, 2, 3, 4].map((_, index) => (
                 <Card
                   key={index}
