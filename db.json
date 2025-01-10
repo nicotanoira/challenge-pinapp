@@ -1,0 +1,564 @@
+{
+  "products": [
+    {
+      "id": "prod001",
+      "sku": "prod001",
+      "name": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday.",
+      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "category": {
+        "id": "cat001",
+        "name": "Men's Clothing"
+      },
+      "brand": "Fjallraven",
+      "price": 131940,
+      "stock": 120,
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Polyester"
+        },
+        {
+          "name": "Laptop Size",
+          "value": "Up to 15 inches"
+        },
+        {
+          "name": "Dimensions",
+          "value": "18 x 12 x 5 inches"
+        }
+      ]
+    },
+    {
+      "id": "prod002",
+      "sku": "prod002",
+      "name": "Mens Casual Premium Slim Fit T-Shirts",
+      "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing.",
+      "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+      "category": {
+        "id": "cat001",
+        "name": "Men's Clothing"
+      },
+      "brand": "Unknown",
+      "price": 26760,
+      "stock": 259,
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Cotton, Polyester"
+        },
+        {
+          "name": "Neckline",
+          "value": "Henley"
+        },
+        {
+          "name": "Sleeve",
+          "value": "Long sleeve"
+        }
+      ]
+    },
+    {
+      "id": "prod003",
+      "sku": "prod003",
+      "name": "Mens Cotton Jacket",
+      "description": "Great outerwear jackets for Spring/Autumn/Winter, suitable for various outdoor activities. Good gift choice for family members.",
+      "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+      "category": {
+        "id": "cat001",
+        "name": "Men's Clothing"
+      },
+      "brand": "Unknown",
+      "price": 67188,
+      "stock": 500,
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Cotton"
+        },
+        {
+          "name": "Occasion",
+          "value": "Outdoor activities"
+        },
+        {
+          "name": "Warmth",
+          "value": "Winter"
+        }
+      ]
+    },
+    {
+      "id": "prod004",
+      "sku": "prod004",
+      "name": "Mens Casual Slim Fit",
+      "description": "The color may slightly vary from screen to real-life. Please review detailed size information.",
+      "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+      "category": {
+        "id": "cat001",
+        "name": "Men's Clothing"
+      },
+      "brand": "Unknown",
+      "price": 19188,
+      "stock": 430,
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Cotton"
+        },
+        {
+          "name": "Fit",
+          "value": "Slim"
+        },
+        {
+          "name": "Wash",
+          "value": "Machine washable"
+        }
+      ]
+    },
+    {
+      "id": "prod005",
+      "sku": "prod005",
+      "name": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+      "description": "Inspired by the mythical water dragon that protects the ocean's pearl, wear it for love, abundance, and protection.",
+      "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+      "category": {
+        "id": "cat002",
+        "name": "Jewelry"
+      },
+      "brand": "John Hardy",
+      "price": 834000,
+      "stock": 400,
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Gold & Silver"
+        },
+        {
+          "name": "Type",
+          "value": "Bracelet"
+        },
+        {
+          "name": "Style",
+          "value": "Dragon"
+        }
+      ]
+    },
+    {
+      "id": "prod006",
+      "sku": "prod006",
+      "name": "Solid Gold Petite Micropave",
+      "description": "Satisfaction guaranteed with the option to return or exchange within 30 days. Designed by Hafeez Center.",
+      "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+      "category": {
+        "id": "cat002",
+        "name": "Jewelry"
+      },
+      "brand": "Hafeez Center",
+      "price": 201600,
+      "stock": 70,
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Solid Gold"
+        },
+        {
+          "name": "Stone",
+          "value": "Micropave"
+        },
+        {
+          "name": "Design",
+          "value": "Petite"
+        }
+      ]
+    },
+    {
+      "id": "prod007",
+      "sku": "prod007",
+      "name": "White Gold Plated Princess",
+      "description": "Classic engagement ring, perfect for weddings, anniversaries, and special occasions.",
+      "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+      "category": {
+        "id": "cat002",
+        "name": "Jewelry"
+      },
+      "brand": "Unknown",
+      "price": 11999,
+      "stock": 400,
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "White Gold"
+        },
+        {
+          "name": "Stone",
+          "value": "Princess Cut Diamond"
+        },
+        {
+          "name": "Occasion",
+          "value": "Engagement"
+        }
+      ]
+    },
+    {
+      "id": "prod008",
+      "sku": "prod008",
+      "name": "Pierced Owl Rose Gold Plated Stainless Steel Double",
+      "description": "Rose gold plated stainless steel earrings, perfect for stylish look.",
+      "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+      "category": {
+        "id": "cat002",
+        "name": "Jewelry"
+      },
+      "brand": "Pierced Owl",
+      "price": 13199,
+      "stock": 100,
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Stainless Steel"
+        },
+        {
+          "name": "Plating",
+          "value": "Rose Gold"
+        },
+        {
+          "name": "Type",
+          "value": "Earrings"
+        }
+      ]
+    },
+    {
+      "id": "prod009",
+      "sku": "prod009",
+      "name": "WD 2TB Elements Portable External Hard Drive - USB 3.0",
+      "description": "Fast data transfers, high capacity, USB 3.0 compatible, ideal for improving PC performance.",
+      "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+      "category": {
+        "id": "cat003",
+        "name": "Electronics"
+      },
+      "brand": "WD",
+      "price": 76800,
+      "stock": 203,
+      "specifications": [
+        {
+          "name": "Capacity",
+          "value": "2TB"
+        },
+        {
+          "name": "Interface",
+          "value": "USB 3.0"
+        },
+        {
+          "name": "Compatibility",
+          "value": "Windows, Mac"
+        }
+      ]
+    },
+    {
+      "id": "prod010",
+      "sku": "prod010",
+      "name": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+      "description": "Boosts boot-up time and application load times with read/write speeds up to 535MB/s/450MB/s.",
+      "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+      "category": {
+        "id": "cat003",
+        "name": "Electronics"
+      },
+      "brand": "SanDisk",
+      "price": 130800,
+      "stock": 470,
+      "specifications": [
+        {
+          "name": "Capacity",
+          "value": "1TB"
+        },
+        {
+          "name": "Read Speed",
+          "value": "535MB/s"
+        },
+        {
+          "name": "Write Speed",
+          "value": "450MB/s"
+        }
+      ]
+    },
+    {
+      "id": "prod011",
+      "sku": "prod011",
+      "name": "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
+      "description": "Remarkable transfer speeds, advanced SLC cache technology for performance boost and longer lifespan.",
+      "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+      "category": {
+        "id": "cat003",
+        "name": "Electronics"
+      },
+      "brand": "Silicon Power",
+      "price": 130800,
+      "stock": 319,
+      "specifications": [
+        {
+          "name": "Capacity",
+          "value": "256GB"
+        },
+        {
+          "name": "Cache",
+          "value": "SLC"
+        },
+        {
+          "name": "Form Factor",
+          "value": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "prod012",
+      "sku": "prod012",
+      "name": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+      "description": "Expand your PS4 gaming experience with this high capacity, sleek design external hard drive.",
+      "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+      "category": {
+        "id": "cat003",
+        "name": "Electronics"
+      },
+      "brand": "WD",
+      "price": 136800,
+      "stock": 400,
+      "specifications": [
+        {
+          "name": "Capacity",
+          "value": "4TB"
+        },
+        {
+          "name": "Compatibility",
+          "value": "Playstation 4"
+        },
+        {
+          "name": "Design",
+          "value": "Sleek"
+        }
+      ]
+    },
+    {
+      "id": "prod013",
+      "sku": "prod013",
+      "name": "Acer SB220Q bi 21.5 inches Full HD IPS Ultra-Thin Monitor",
+      "description": "21.5 inches Full HD display with Radeon FreeSync technology, ultra-thin design, and 75Hz refresh rate.",
+      "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+      "category": {
+        "id": "cat003",
+        "name": "Electronics"
+      },
+      "brand": "Acer",
+      "price": 720000,
+      "stock": 250,
+      "specifications": [
+        {
+          "name": "Display",
+          "value": "21.5 inches"
+        },
+        {
+          "name": "Resolution",
+          "value": "1920 x 1080"
+        },
+        {
+          "name": "Refresh Rate",
+          "value": "75Hz"
+        }
+      ]
+    },
+    {
+      "id": "prod014",
+      "sku": "prod014",
+      "name": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor",
+      "description": "49-inch ultrawide curved gaming monitor with HDR support and quantum dot (QLED) technology for stunning visuals.",
+      "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+      "category": {
+        "id": "cat003",
+        "name": "Electronics"
+      },
+      "brand": "Samsung",
+      "price": 1200000,
+      "stock": 140,
+      "specifications": [
+        {
+          "name": "Size",
+          "value": "49 inches"
+        },
+        {
+          "name": "Refresh Rate",
+          "value": "144Hz"
+        },
+        {
+          "name": "Technology",
+          "value": "QLED, HDR"
+        }
+      ]
+    },
+    {
+      "id": "prod015",
+      "sku": "prod015",
+      "name": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
+      "description": "A versatile 3-in-1 jacket for different seasons, adjustable for comfort and warmth, with ample zippered pockets.",
+      "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+      "category": {
+        "id": "cat004",
+        "name": "Women's Clothing"
+      },
+      "brand": "BIYLACLESEN",
+      "price": 68388,
+      "stock": 235,
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Polyester"
+        },
+        {
+          "name": "Type",
+          "value": "Snowboard Jacket"
+        },
+        {
+          "name": "Seasons",
+          "value": "Winter"
+        }
+      ]
+    },
+    {
+      "id": "prod016",
+      "sku": "prod016",
+      "name": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
+      "description": "A faux leather moto jacket with a removable hood, perfect for casual or stylish looks.",
+      "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+      "category": {
+        "id": "cat004",
+        "name": "Women's Clothing"
+      },
+      "brand": "Lock and Love",
+      "price": 35940,
+      "stock": 340,
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Polyurethane"
+        },
+        {
+          "name": "Type",
+          "value": "Moto Jacket"
+        },
+        {
+          "name": "Features",
+          "value": "Removable hood"
+        }
+      ]
+    },
+    {
+      "id": "prod017",
+      "sku": "prod017",
+      "name": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
+      "description": "A lightweight, breathable rain jacket for casual wear and trips with adjustable waist and hood.",
+      "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+      "category": {
+        "id": "cat004",
+        "name": "Women's Clothing"
+      },
+      "brand": "Unknown",
+      "price": 48000,
+      "stock": 679,
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Polyester"
+        },
+        {
+          "name": "Type",
+          "value": "Rain Jacket"
+        },
+        {
+          "name": "Design",
+          "value": "Striped, windbreaker"
+        }
+      ]
+    },
+    {
+      "id": "prod018",
+      "sku": "prod018",
+      "name": "MBJ Women's Solid Short Sleeve Boat Neck V",
+      "description": "Solid boat-neck style T-shirt, perfect for layering, available in different colors.",
+      "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+      "category": {
+        "id": "cat004",
+        "name": "Women's Clothing"
+      },
+      "brand": "MBJ",
+      "price": 13100,
+      "stock": 430,
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Cotton"
+        },
+        {
+          "name": "Neckline",
+          "value": "Boat Neck"
+        },
+        {
+          "name": "Sleeve",
+          "value": "Short sleeve"
+        }
+      ]
+    },
+    {
+      "id": "prod019",
+      "sku": "prod019",
+      "name": "Opna Women's Short Sleeve Open Front Cardigan Sweater",
+      "description": "Lightweight, short-sleeve, open-front cardigan sweater for layering, perfect for all seasons.",
+      "image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+      "category": {
+        "id": "cat004",
+        "name": "Women's Clothing"
+      },
+      "brand": "Opna",
+      "price": 19199,
+      "stock": 110,
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Cotton, Polyester"
+        },
+        {
+          "name": "Type",
+          "value": "Cardigan Sweater"
+        },
+        {
+          "name": "Fit",
+          "value": "Regular"
+        }
+      ]
+    },
+    {
+      "id": "prod020",
+      "sku": "prod020",
+      "name": "Women's Floral Print Ruffle Sleeve V-Neck Maxi Dress",
+      "description": "Elegantly designed floral print maxi dress with ruffle sleeves and V-neck for a stylish, romantic look.",
+      "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+      "category": {
+        "id": "cat004",
+        "name": "Women's Clothing"
+      },
+      "brand": "Unknown",
+      "price": 43199,
+      "stock": 500,
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Cotton"
+        },
+        {
+          "name": "Sleeve",
+          "value": "Ruffle Sleeve"
+        },
+        {
+          "name": "Neckline",
+          "value": "V-Neck"
+        }
+      ]
+    }
+  ]
+}
