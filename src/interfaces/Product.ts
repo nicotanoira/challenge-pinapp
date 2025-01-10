@@ -1,4 +1,4 @@
-// Interface para la lista de productos
+// Lista de productos PLP
 export interface ProductListItem {
   id: number;
   sku: string;
@@ -13,7 +13,7 @@ export interface ProductListItem {
 
 
 
-// Interface para el detalle de un producto
+// Detalle de producto PDP
 export interface ProductDetail extends ProductListItem {
   specifications: { name: string; value: string }[];
 }

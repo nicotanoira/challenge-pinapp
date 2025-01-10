@@ -23,7 +23,7 @@ const Home = async () => {
   return (
     <PageContentContainer>
 
-        <section className="flex-1 flex w-[70%] h-full lg:w-[70%] flex-col items-center md:items-start">
+        <section className="flex-1 flex  w-[300px] h-full md:w-[70%] flex-col items-center md:items-start">
           <ProductCollection products={initialProducts} filterCategories={allCategories} />
         </section> 
 

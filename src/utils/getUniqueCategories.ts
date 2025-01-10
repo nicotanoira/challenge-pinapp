@@ -11,13 +11,12 @@ export default function getUniqueCategories(products: ProductListItem[]) {
   const categories: Category[]  = [];
 
   products.forEach((product) => {
-    const category = product.category; // Extract category from product
+    const category = product.category;
 
-    // Check if the category already exists in the array
     const exists = categories.some((cat) => cat.id === category.id);
 
     if (!exists) {
-      categories.push(category); // Add unique category to the array
+      categories.push(category);
     }
   });
 
