@@ -20,6 +20,7 @@ const SearchInput: React.FC = () => {
       placeholder="Buscar"
       loading={loading}
       onChange={(e) => setValue(e.target.value)}
+      enterButton
     />
   );
 };
