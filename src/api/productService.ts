@@ -28,7 +28,6 @@ export const fetchProducts = async ({
 
     return products;
   } catch (error) {
-    console.log(error)
     if (axios.isAxiosError(error)) {
       const status = error.response?.status;
 
