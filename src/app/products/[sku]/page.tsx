@@ -1,13 +1,8 @@
-// import { Metadata } from "next";
 import { fetchProductDetails } from "@/api/productService";
 import ErrorView from "@/components/ErrorView";
 import PageContentContainer from "@/components/PageContentContainer";
 import ProductDetailView from "@/components/ProductDetailView";
 import { ProductDetail } from "@/interfaces/Product";
-
-// interface ProductDetailPageProps {
-//   params: { sku: string };
-// }
 
 const ProductDetailPage = async ({
   params,
