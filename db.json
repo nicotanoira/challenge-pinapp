@@ -1,204 +1,564 @@
 {
   "products": [
     {
+      "id": "prod001",
       "sku": "prod001",
-      "name": "Blue Label",
-      "description": "Description of Product 1 with some detailed information to show how it displays in the UI.",
-      "image": "https://via.placeholder.com/150",
-      "category": { "id": "cat001", "name": "Whiskey" },
-      "brand": "Johnny Walker",
-      "price": 1000000.0,
-      "stock": 20
+      "name": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday.",
+      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "category": {
+        "id": "cat001",
+        "name": "Men's Clothing"
+      },
+      "brand": "Fjallraven",
+      "price": 131940,
+      "stock": 120,
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Polyester"
+        },
+        {
+          "name": "Laptop Size",
+          "value": "Up to 15 inches"
+        },
+        {
+          "name": "Dimensions",
+          "value": "18 x 12 x 5 inches"
+        }
+      ]
     },
     {
+      "id": "prod002",
       "sku": "prod002",
-      "name": "Super Long Product Name Just To Test UI Overflow Handling In A UI With Longer Text Fields",
-      "description": "This is a really long description to test how the UI handles wrapping and overflow. It contains a lot of information, details, and specifics about the product which will help determine how the layout behaves when this content is rendered in the user interface.",
-      "image": "https://via.placeholder.com/150",
-      "category": { "id": "cat002", "name": "Electronics" },
-      "brand": "Tech Innovators",
-      "price": 499.99,
-      "stock": 50
+      "name": "Mens Casual Premium Slim Fit T-Shirts",
+      "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing.",
+      "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+      "category": {
+        "id": "cat001",
+        "name": "Men's Clothing"
+      },
+      "brand": "Unknown",
+      "price": 26760,
+      "stock": 259,
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Cotton, Polyester"
+        },
+        {
+          "name": "Neckline",
+          "value": "Henley"
+        },
+        {
+          "name": "Sleeve",
+          "value": "Long sleeve"
+        }
+      ]
     },
     {
+      "id": "prod003",
       "sku": "prod003",
-      "name": "Compact Speaker",
-      "description": "A compact and portable Bluetooth speaker with excellent sound quality and a sleek design.",
-      "image": "https://via.placeholder.com/150",
-      "category": { "id": "cat001", "name": "Audio" },
-      "brand": "SoundMaster",
-      "price": 75.0,
-      "stock": 15
+      "name": "Mens Cotton Jacket",
+      "description": "Great outerwear jackets for Spring/Autumn/Winter, suitable for various outdoor activities. Good gift choice for family members.",
+      "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+      "category": {
+        "id": "cat001",
+        "name": "Men's Clothing"
+      },
+      "brand": "Unknown",
+      "price": 67188,
+      "stock": 500,
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Cotton"
+        },
+        {
+          "name": "Occasion",
+          "value": "Outdoor activities"
+        },
+        {
+          "name": "Warmth",
+          "value": "Winter"
+        }
+      ]
     },
     {
+      "id": "prod004",
       "sku": "prod004",
-      "name": "Wireless Mouse",
-      "description": "A wireless mouse designed for comfort and ease of use, perfect for working professionals and students alike.",
-      "image": "https://via.placeholder.com/150",
-      "category": { "id": "cat003", "name": "Accessories" },
-      "brand": "MouseTech",
-      "price": 29.99,
-      "stock": 100
+      "name": "Mens Casual Slim Fit",
+      "description": "The color may slightly vary from screen to real-life. Please review detailed size information.",
+      "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+      "category": {
+        "id": "cat001",
+        "name": "Men's Clothing"
+      },
+      "brand": "Unknown",
+      "price": 19188,
+      "stock": 430,
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Cotton"
+        },
+        {
+          "name": "Fit",
+          "value": "Slim"
+        },
+        {
+          "name": "Wash",
+          "value": "Machine washable"
+        }
+      ]
     },
     {
+      "id": "prod005",
       "sku": "prod005",
-      "name": "Gourmet Coffee Beans",
-      "description": "A premium blend of gourmet coffee beans sourced from the finest farms around the world, offering a rich and smooth taste.",
-      "image": "https://via.placeholder.com/150",
-      "category": { "id": "cat004", "name": "Food & Beverages" },
-      "brand": "BrewMasters",
-      "price": 19.99,
-      "stock": 35
+      "name": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+      "description": "Inspired by the mythical water dragon that protects the ocean's pearl, wear it for love, abundance, and protection.",
+      "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+      "category": {
+        "id": "cat002",
+        "name": "Jewelry"
+      },
+      "brand": "John Hardy",
+      "price": 834000,
+      "stock": 400,
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Gold & Silver"
+        },
+        {
+          "name": "Type",
+          "value": "Bracelet"
+        },
+        {
+          "name": "Style",
+          "value": "Dragon"
+        }
+      ]
     },
     {
+      "id": "prod006",
       "sku": "prod006",
-      "name": "Smartphone",
-      "description": "The latest high-tech smartphone with cutting-edge features, amazing camera quality, and a long-lasting battery.",
-      "image": "https://via.placeholder.com/150",
-      "category": { "id": "cat002", "name": "Smartphones" },
-      "brand": "FuturePhone",
-      "price": 999.99,
-      "stock": 10
+      "name": "Solid Gold Petite Micropave",
+      "description": "Satisfaction guaranteed with the option to return or exchange within 30 days. Designed by Hafeez Center.",
+      "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+      "category": {
+        "id": "cat002",
+        "name": "Jewelry"
+      },
+      "brand": "Hafeez Center",
+      "price": 201600,
+      "stock": 70,
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Solid Gold"
+        },
+        {
+          "name": "Stone",
+          "value": "Micropave"
+        },
+        {
+          "name": "Design",
+          "value": "Petite"
+        }
+      ]
     },
     {
+      "id": "prod007",
       "sku": "prod007",
-      "name": "Leather Wallet",
-      "description": "A handcrafted leather wallet, made with premium materials and designed for durability and style.",
-      "image": "https://via.placeholder.com/150",
-      "category": { "id": "cat005", "name": "Fashion" },
-      "brand": "StyleCraft",
-      "price": 45.0,
-      "stock": 25
+      "name": "White Gold Plated Princess",
+      "description": "Classic engagement ring, perfect for weddings, anniversaries, and special occasions.",
+      "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+      "category": {
+        "id": "cat002",
+        "name": "Jewelry"
+      },
+      "brand": "Unknown",
+      "price": 11999,
+      "stock": 400,
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "White Gold"
+        },
+        {
+          "name": "Stone",
+          "value": "Princess Cut Diamond"
+        },
+        {
+          "name": "Occasion",
+          "value": "Engagement"
+        }
+      ]
     },
     {
+      "id": "prod008",
       "sku": "prod008",
-      "name": "Eco-Friendly Water Bottle",
-      "description": "An environmentally friendly water bottle made from recycled materials, designed to keep your drinks cool or hot for hours.",
-      "image": "https://via.placeholder.com/150",
-      "category": { "id": "cat006", "name": "Home & Living" },
-      "brand": "EcoFlow",
-      "price": 15.99,
-      "stock": 30
+      "name": "Pierced Owl Rose Gold Plated Stainless Steel Double",
+      "description": "Rose gold plated stainless steel earrings, perfect for stylish look.",
+      "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+      "category": {
+        "id": "cat002",
+        "name": "Jewelry"
+      },
+      "brand": "Pierced Owl",
+      "price": 13199,
+      "stock": 100,
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Stainless Steel"
+        },
+        {
+          "name": "Plating",
+          "value": "Rose Gold"
+        },
+        {
+          "name": "Type",
+          "value": "Earrings"
+        }
+      ]
     },
     {
+      "id": "prod009",
       "sku": "prod009",
-      "name": "Gaming Headset",
-      "description": "A high-quality gaming headset with surround sound and a noise-canceling microphone for the ultimate gaming experience.",
-      "image": "https://via.placeholder.com/150",
-      "category": { "id": "cat007", "name": "Gaming" },
-      "brand": "GamerX",
-      "price": 120.0,
-      "stock": 12
+      "name": "WD 2TB Elements Portable External Hard Drive - USB 3.0",
+      "description": "Fast data transfers, high capacity, USB 3.0 compatible, ideal for improving PC performance.",
+      "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+      "category": {
+        "id": "cat003",
+        "name": "Electronics"
+      },
+      "brand": "WD",
+      "price": 76800,
+      "stock": 203,
+      "specifications": [
+        {
+          "name": "Capacity",
+          "value": "2TB"
+        },
+        {
+          "name": "Interface",
+          "value": "USB 3.0"
+        },
+        {
+          "name": "Compatibility",
+          "value": "Windows, Mac"
+        }
+      ]
     },
     {
+      "id": "prod010",
       "sku": "prod010",
-      "name": "Mountain Bike",
-      "description": "A durable mountain bike built for adventure, with strong wheels and a lightweight frame designed for rugged terrain.",
-      "image": "https://via.placeholder.com/150",
-      "category": { "id": "cat008", "name": "Sports & Outdoors" },
-      "brand": "TrailBlazers",
-      "price": 450.0,
-      "stock": 8
+      "name": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+      "description": "Boosts boot-up time and application load times with read/write speeds up to 535MB/s/450MB/s.",
+      "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+      "category": {
+        "id": "cat003",
+        "name": "Electronics"
+      },
+      "brand": "SanDisk",
+      "price": 130800,
+      "stock": 470,
+      "specifications": [
+        {
+          "name": "Capacity",
+          "value": "1TB"
+        },
+        {
+          "name": "Read Speed",
+          "value": "535MB/s"
+        },
+        {
+          "name": "Write Speed",
+          "value": "450MB/s"
+        }
+      ]
     },
     {
+      "id": "prod011",
       "sku": "prod011",
-      "name": "Luxury Watch",
-      "description": "A sophisticated luxury watch with a timeless design, perfect for those who appreciate fine craftsmanship and style.",
-      "image": "https://via.placeholder.com/150",
-      "category": { "id": "cat009", "name": "Luxury Goods" },
-      "brand": "TimeKeepers",
-      "price": 2500.0,
-      "stock": 5
+      "name": "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
+      "description": "Remarkable transfer speeds, advanced SLC cache technology for performance boost and longer lifespan.",
+      "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+      "category": {
+        "id": "cat003",
+        "name": "Electronics"
+      },
+      "brand": "Silicon Power",
+      "price": 130800,
+      "stock": 319,
+      "specifications": [
+        {
+          "name": "Capacity",
+          "value": "256GB"
+        },
+        {
+          "name": "Cache",
+          "value": "SLC"
+        },
+        {
+          "name": "Form Factor",
+          "value": "2.5"
+        }
+      ]
     },
     {
+      "id": "prod012",
       "sku": "prod012",
-      "name": "Portable Power Bank",
-      "description": "A portable power bank to keep your devices charged while on the go. Compact and reliable for everyday use.",
-      "image": "https://via.placeholder.com/150",
-      "category": { "id": "cat010", "name": "Tech Gadgets" },
-      "brand": "PowerHub",
-      "price": 35.99,
-      "stock": 40
+      "name": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+      "description": "Expand your PS4 gaming experience with this high capacity, sleek design external hard drive.",
+      "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+      "category": {
+        "id": "cat003",
+        "name": "Electronics"
+      },
+      "brand": "WD",
+      "price": 136800,
+      "stock": 400,
+      "specifications": [
+        {
+          "name": "Capacity",
+          "value": "4TB"
+        },
+        {
+          "name": "Compatibility",
+          "value": "Playstation 4"
+        },
+        {
+          "name": "Design",
+          "value": "Sleek"
+        }
+      ]
     },
     {
+      "id": "prod013",
       "sku": "prod013",
-      "name": "Noise Cancelling Headphones",
-      "description": "Noise-cancelling headphones that deliver premium sound quality and a comfortable fit for long listening sessions.",
-      "image": "https://via.placeholder.com/150",
-      "category": { "id": "cat007", "name": "Audio" },
-      "brand": "SoundWave",
-      "price": 180.0,
-      "stock": 18
+      "name": "Acer SB220Q bi 21.5 inches Full HD IPS Ultra-Thin Monitor",
+      "description": "21.5 inches Full HD display with Radeon FreeSync technology, ultra-thin design, and 75Hz refresh rate.",
+      "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+      "category": {
+        "id": "cat003",
+        "name": "Electronics"
+      },
+      "brand": "Acer",
+      "price": 720000,
+      "stock": 250,
+      "specifications": [
+        {
+          "name": "Display",
+          "value": "21.5 inches"
+        },
+        {
+          "name": "Resolution",
+          "value": "1920 x 1080"
+        },
+        {
+          "name": "Refresh Rate",
+          "value": "75Hz"
+        }
+      ]
     },
     {
+      "id": "prod014",
       "sku": "prod014",
-      "name": "Electric Kettle",
-      "description": "A fast-boiling electric kettle with an automatic shut-off feature for safety and convenience.",
-      "image": "https://via.placeholder.com/150",
-      "category": { "id": "cat011", "name": "Home Appliances" },
-      "brand": "HeatWave",
-      "price": 50.0,
-      "stock": 25
+      "name": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor",
+      "description": "49-inch ultrawide curved gaming monitor with HDR support and quantum dot (QLED) technology for stunning visuals.",
+      "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+      "category": {
+        "id": "cat003",
+        "name": "Electronics"
+      },
+      "brand": "Samsung",
+      "price": 1200000,
+      "stock": 140,
+      "specifications": [
+        {
+          "name": "Size",
+          "value": "49 inches"
+        },
+        {
+          "name": "Refresh Rate",
+          "value": "144Hz"
+        },
+        {
+          "name": "Technology",
+          "value": "QLED, HDR"
+        }
+      ]
     },
     {
+      "id": "prod015",
       "sku": "prod015",
-      "name": "Smart Thermostat",
-      "description": "A smart thermostat that adjusts the temperature based on your preferences, saving energy and money.",
-      "image": "https://via.placeholder.com/150",
-      "category": { "id": "cat012", "name": "Smart Home" },
-      "brand": "HomeTech",
-      "price": 99.99,
-      "stock": 50
+      "name": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
+      "description": "A versatile 3-in-1 jacket for different seasons, adjustable for comfort and warmth, with ample zippered pockets.",
+      "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+      "category": {
+        "id": "cat004",
+        "name": "Women's Clothing"
+      },
+      "brand": "BIYLACLESEN",
+      "price": 68388,
+      "stock": 235,
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Polyester"
+        },
+        {
+          "name": "Type",
+          "value": "Snowboard Jacket"
+        },
+        {
+          "name": "Seasons",
+          "value": "Winter"
+        }
+      ]
     },
     {
+      "id": "prod016",
       "sku": "prod016",
-      "name": "Yoga Mat",
-      "description": "A high-quality yoga mat made from eco-friendly materials, providing a non-slip surface for your yoga sessions.",
-      "image": "https://via.placeholder.com/150",
-      "category": { "id": "cat013", "name": "Fitness" },
-      "brand": "FlexFit",
-      "price": 25.0,
-      "stock": 75
+      "name": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
+      "description": "A faux leather moto jacket with a removable hood, perfect for casual or stylish looks.",
+      "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+      "category": {
+        "id": "cat004",
+        "name": "Women's Clothing"
+      },
+      "brand": "Lock and Love",
+      "price": 35940,
+      "stock": 340,
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Polyurethane"
+        },
+        {
+          "name": "Type",
+          "value": "Moto Jacket"
+        },
+        {
+          "name": "Features",
+          "value": "Removable hood"
+        }
+      ]
     },
     {
+      "id": "prod017",
       "sku": "prod017",
-      "name": "Electric Guitar",
-      "description": "An electric guitar with smooth sound, designed for both beginners and experienced musicians.",
-      "image": "https://via.placeholder.com/150",
-      "category": { "id": "cat014", "name": "Musical Instruments" },
-      "brand": "RockStar",
-      "price": 150.0,
-      "stock": 10
+      "name": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
+      "description": "A lightweight, breathable rain jacket for casual wear and trips with adjustable waist and hood.",
+      "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+      "category": {
+        "id": "cat004",
+        "name": "Women's Clothing"
+      },
+      "brand": "Unknown",
+      "price": 48000,
+      "stock": 679,
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Polyester"
+        },
+        {
+          "name": "Type",
+          "value": "Rain Jacket"
+        },
+        {
+          "name": "Design",
+          "value": "Striped, windbreaker"
+        }
+      ]
     },
     {
+      "id": "prod018",
       "sku": "prod018",
-      "name": "Leather Jacket",
-      "description": "A premium leather jacket, stylish and durable for any occasion. Made from high-quality materials for a perfect fit.",
-      "image": "https://via.placeholder.com/150",
-      "category": { "id": "cat015", "name": "Fashion" },
-      "brand": "UrbanStyles",
-      "price": 199.99,
-      "stock": 30
+      "name": "MBJ Women's Solid Short Sleeve Boat Neck V",
+      "description": "Solid boat-neck style T-shirt, perfect for layering, available in different colors.",
+      "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+      "category": {
+        "id": "cat004",
+        "name": "Women's Clothing"
+      },
+      "brand": "MBJ",
+      "price": 13100,
+      "stock": 430,
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Cotton"
+        },
+        {
+          "name": "Neckline",
+          "value": "Boat Neck"
+        },
+        {
+          "name": "Sleeve",
+          "value": "Short sleeve"
+        }
+      ]
     },
     {
+      "id": "prod019",
       "sku": "prod019",
-      "name": "Gaming Chair",
-      "description": "An ergonomic gaming chair designed for maximum comfort during long gaming sessions. Adjustable, durable, and stylish.",
-      "image": "https://via.placeholder.com/150",
-      "category": { "id": "cat016", "name": "Furniture" },
-      "brand": "GameComfort",
-      "price": 220.0,
-      "stock": 10
+      "name": "Opna Women's Short Sleeve Open Front Cardigan Sweater",
+      "description": "Lightweight, short-sleeve, open-front cardigan sweater for layering, perfect for all seasons.",
+      "image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+      "category": {
+        "id": "cat004",
+        "name": "Women's Clothing"
+      },
+      "brand": "Opna",
+      "price": 19199,
+      "stock": 110,
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Cotton, Polyester"
+        },
+        {
+          "name": "Type",
+          "value": "Cardigan Sweater"
+        },
+        {
+          "name": "Fit",
+          "value": "Regular"
+        }
+      ]
     },
     {
+      "id": "prod020",
       "sku": "prod020",
-      "name": "Smartwatch",
-      "description": "A smartwatch with advanced fitness tracking, heart rate monitoring, and customizable watch faces for your lifestyle.",
-      "image": "https://via.placeholder.com/150",
-      "category": { "id": "cat017", "name": "Wearables" },
-      "brand": "TechWear",
-      "price": 199.99,
-      "stock": 25
+      "name": "Women's Floral Print Ruffle Sleeve V-Neck Maxi Dress",
+      "description": "Elegantly designed floral print maxi dress with ruffle sleeves and V-neck for a stylish, romantic look.",
+      "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+      "category": {
+        "id": "cat004",
+        "name": "Women's Clothing"
+      },
+      "brand": "Unknown",
+      "price": 43199,
+      "stock": 500,
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Cotton"
+        },
+        {
+          "name": "Sleeve",
+          "value": "Ruffle Sleeve"
+        },
+        {
+          "name": "Neckline",
+          "value": "V-Neck"
+        }
+      ]
     }
   ]
 }
