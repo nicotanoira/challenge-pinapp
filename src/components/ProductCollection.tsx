@@ -69,33 +69,34 @@ const ProductCollection: React.FC<ProductCollectionProps> = ({
   }, [searchInputText, setLoading, products]);
 
   return (
-    <>
-    <>
-      <div className="flex-col md:flex-row flex justify-between items-center w-full gap-4 md:mb-6">
-        <h1 className="flex-1 text-black font-extrabold text-2xl md:text-5xl lg:text-5xl max-w-[300px] w-full">
-          Products
-        </h1>
-        <div className="flex flex-[0_0_55%] gap-2 flex-wrap h-full md:justify-end items-center text-center">
-          {filterCategories?.map((category) => (
-            <Chip
-              text={category.name}
-              key={category.id}
-              size="text-[12px] md:text-[16px] py-1 px-2 md:py-2 md:px-4"
-              onClick={() => toggleCategory(category)}
-              customStyle={
-                selectedCategories.includes(category)
-                  ? "bg-blue-500 text-white border-blue-500 hover:bg-blue-600 hover:border-blue-600"
-                  : "hover:border-blue-600 hover:text-blue-600 border-blue-500 text-blue-500"
-              }
-            />
-          ))}
+    <div className="w-full h-full">
+      <>
+        <div className="flex-col md:flex-row flex justify-between items-center w-full gap-4 md:mb-6">
+          <h1 className="flex-1 text-black font-extrabold text-2xl md:text-5xl lg:text-5xl max-w-[300px] w-full">
+            Products
+          </h1>
+          <div className="flex flex-[0_0_55%] gap-2 flex-wrap h-full md:justify-end items-center text-center">
+            {filterCategories?.map((category) => (
+              <Chip
+                text={category.name}
+                key={category.id}
+                size="text-[12px] md:text-[16px] py-1 px-2 md:py-2 md:px-4"
+                onClick={() => toggleCategory(category)}
+                customStyle={
+                  selectedCategories.includes(category)
+                    ? "bg-blue-500 text-white border-blue-500 hover:bg-blue-600 hover:border-blue-600"
+                    : "hover:border-blue-600 hover:text-blue-600 border-blue-500 text-blue-500"
+                }
+              />
+            ))}
+          </div>
         </div>
-      </div>
-      <span className="text-sm md:text-base text-gray-500 flex w-full justify-end items-center text-center mb-2 pr-2">
-        Showing: {items.length} results
-      </span>
-    </>
+        <span className="text-sm md:text-base text-gray-500 flex w-full justify-end items-center text-center mb-2 pr-2">
+          Showing: {items.length} results
+        </span>
+      </>
 
+          
       {error ? (
         <ErrorView errorMessage={error} />
       ) : (
@@ -109,20 +110,18 @@ const ProductCollection: React.FC<ProductCollectionProps> = ({
                 <ProductCollectionCard product={product} />
               </div>
             ))
-          ) : (
-            <div className="flex-col md:flex-row h-full flex w-full gap-8">
-              {[1, 2, 3, 4].map((_, index) => (
-                <Card
-                  key={index}
-                  className="w-full max-w-[300px] justify-center h-full p-4"
-                  loading={loading}
-                />
-              ))}
-            </div>
+          ) : 
+            [1, 2, 3, 4].map((_, index) => (
+              <Card
+                key={index}
+                className="w-full h-[200px] max-w-[300px] justify-center p-4"
+                loading={true}
+              />
+            )
           )}
         </div>
       )}
-    </>
+    </div>
   );
 };
 
